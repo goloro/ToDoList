@@ -1,14 +1,14 @@
 body {
     background-color: #0F0F0F;
-}
-
-.container {
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container {
     width: 30%;
 }
 
