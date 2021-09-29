@@ -17,16 +17,19 @@ body {
     word-spacing: 8px;
     letter-spacing: 2px;
     font-style: oblique;
+    font-size: 50px;
 }
 
 form {
     display: flex;
+    justify-content: center;
 }
 
 input {
     outline: none;
-    width: 350px;
+    width: 90%;
     padding : 5px 0px;
+    font-size: 20px;
 }
 
 .btn-add {
@@ -61,6 +64,7 @@ li {
     border-radius: 10px;
     margin-top: 10px;
     display: flex;
+    justify-content: center;
 }
 
 li p {
