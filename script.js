@@ -26,7 +26,7 @@ function addTask(a) {
             p.textContent = a;
             empty.style.display = "none";
     } else {
-        if ((text != "") || (text != " ")) {
+        if ((text != "") && (text != " ")) {
             li.appendChild(p);
             li.appendChild(addDeleteBtn(text));
             ul.appendChild(li);
