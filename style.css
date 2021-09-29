@@ -4,7 +4,6 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    
 }
 
 .container {
@@ -38,6 +37,7 @@ input {
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     outline: none;
+    cursor: pointer;
 }
 .btn-add:hover {
     background-color: white;
@@ -78,6 +78,7 @@ li p {
     border-bottom-right-radius: 5px;
     background-color: #EF1717;
     color: white;
+    cursor: pointer;
 }
 
 .btn-delete:hover {
