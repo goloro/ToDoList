@@ -73,6 +73,7 @@ li p {
     width: 100%;
     color: #353835;
     font-family: "Monaco", monospace;
+    box-sizing: border-box;
 }
 
 .btn-delete {
